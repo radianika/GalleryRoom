@@ -1,0 +1,1 @@
+"use strict";var room=document.querySelector(".js-room");document.body.addEventListener("mousemove",function(o){var e=room.offsetLeft+room.offsetWidth/2,t=room.offsetTop+room.offsetHeight/2,r=o.clientX-e,s=o.clientY-t;0==r&&0==s||(console.log(r),room.setAttribute("style","transform: rotate3d(0,1,0, "+r/200+"deg) rotate3d(1,0,0,"+-1*s/200+"deg)"))});
