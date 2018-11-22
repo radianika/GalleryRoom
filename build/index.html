@@ -11,21 +11,44 @@
 </head>
 
 <body>
-<!-- /room -->
+	<!-- /room -->
+	<!--	main wall-->
 	<div class="room" id="room">
-		<div class="room__wall" id="move-bg">
-			<img class="room__img" src="images/item-1.jpg" alt="Some fox" />
-			<img class="room__img" src="images/item-2.jpg" alt="Some fox" />
+		<div class="room__wall">
+			<div class="wall__item ">
+				<img alt="Some fox" src="images/item-1.jpg" class="room__img" />
+			</div>
+			<div class="wall__item">
+				<img alt="Some fox" src="images/item-2.jpg" class="room__img" />
+			</div>
+
 		</div>
+
+		<!--		left wall-->
 		<div class="room__wall room__wall--left">
-			<img class="room__img" src="images/item-3.jpg" alt="Some fox" />
-			<img class="room__img" src="images/item-4.jpg" alt="Some fox" />
-			<img class="room__img" src="images/item-5.jpg" alt="Some fox" />
+			<div class="wall__item wall__item--leftShadow">
+				<img src="images/item-3.jpg" alt="Some fox" class="room__img" />
+			</div>
+			<div class="wall__item wall__item--leftShadow">
+				<img src="images/item-4.jpg" alt="Some fox" class="room__img" />
+			</div>
+			<div class="wall__item wall__item--leftShadow">
+				<img src="images/item-5.jpg" alt="Some fox" class="room__img" />
+			</div>
 		</div>
+
+		<!--		right wall-->
 		<div class="room__wall room__wall--right">
-			<img class="room__img" src="images/item-6.jpg" alt="Some fox" />
-			<img class="room__img" src="images/item-7.jpg" alt="Some fox" />
-			<img class="room__img" src="images/item-8.jpg" alt="Some image" />
+
+			<div class="wall__item wall__item--rightShadow">
+				<img src="images/item-6.jpg" alt="Some fox" class="room__img" />
+			</div>
+			<div class="wall__item wall__item--rightShadow">
+				<img src="images/item-7.jpg" alt="Some fox" class="room__img" />
+			</div>
+			<div class="wall__item wall__item--rightShadow">
+				<img src="images/item-8.jpg" alt="Some fox" class="room__img" />
+			</div>
 		</div>
 	</div>
 	<script src="js/main.js"></script>
